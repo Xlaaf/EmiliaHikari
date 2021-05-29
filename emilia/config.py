@@ -10,17 +10,15 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "3719337"
+    OWNER_ID = "1896544984"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@Robotoos"
     # Some API is required for more features
-    API_OPENWEATHER = ""
-    API_ACCUWEATHER = ""
     MAPS_API = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = 'postgres://bluhqpmy:Yr-eFlTUGj_DMAVTLcWEorqm02fps99k@tai.db.elephantsql.com/bluhqpmy'  # needed for any database modules
+    MESSAGE_DUMP = -1001252541637  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss', 'sed', 'weather']
     WEBHOOK = False
